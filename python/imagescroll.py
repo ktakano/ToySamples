@@ -14,8 +14,8 @@ def scroll():
 img_num = 2
 
 root  = tkinter.Tk()
-root.title("背景画像のスクロール")
-canvas = tkinter.Canvas(width=640,height=480)
+root.title("Spectrum")
+canvas = tkinter.Canvas(width=640,height=240)
 canvas.pack()
 
 imgname = ["spectrum1.png", "spectrum2.png"]
@@ -23,5 +23,6 @@ imgname = ["spectrum1.png", "spectrum2.png"]
 bgimage = []
 for i in range (img_num):
     bgimage.append(tkinter.PhotoImage(file=imgname[i]))
-    
+
+scroll()    
 root.mainloop()
