@@ -8,7 +8,8 @@ import seaborn as sns
 from IPython import get_ipython
 
 path = os.getcwd()
-name ="000615.mp3"
+#name ="000615.mp3"
+name ="001066.mp3"
 
 sound = AudioSegment.from_file(name)
 
