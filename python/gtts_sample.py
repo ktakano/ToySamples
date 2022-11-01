@@ -2,7 +2,7 @@ from gtts import gTTS
 import os
 import playsound
 
-tts = gTTS(text='Hello, my name is John.', lang='en')
-tts.save("hello.mp3")
+tts = gTTS(text='what do you think this boy is doing', lang='en')
+tts.save("kono.mp3")
 
-playsound.playsound('hello.mp3')
+playsound.playsound('kono.mp3')
